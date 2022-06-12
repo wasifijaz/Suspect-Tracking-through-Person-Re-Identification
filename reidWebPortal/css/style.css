@@ -1,0 +1,182 @@
+@font-face{
+  font-family: 'Round';
+  src: url(../fonts/VarelaRound-Regular.ttf);
+}
+body{
+  font-family: 'Round' !important;
+  background-color: #ccc;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.topbar{
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 2vw;
+}
+.topbar h1{
+  font-family: 'Round';
+}
+.somemargin{
+  margin: 10px 0px;
+}
+.ofcontrol{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+.bibtex{
+  background: #CCC;
+  color: #222;
+  font-style: italic;
+  font-size: 12px;
+}
+.rightside{
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+}
+.leftside{
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+}
+.box{
+  background: #fff;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #222;
+  margin: 0px 2px;
+  height: 1280px;
+  overflow: scroll;
+  margin-bottom:5vw ;
+}
+.outputbox{
+  height: 250px;
+  background: #222222;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  margin: 0px 2px;
+  margin-bottom: 2vw;
+}
+.outputbox1{
+  height: 1000px;
+  background: #fff;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #222;
+  margin: 0px 2px;
+  overflow: scroll;
+  margin-bottom: 5vw;
+}
+.img-btn{
+  width: 100%;
+  display: block;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.img-btn img{
+  width: 100%;
+  display: block;
+  margin: 5px 0px;
+}
+.personname{
+  padding: 5px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+table, th, td {
+  border:1px solid #ffffff;
+  text-align: center;
+}
+h5{
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  width: 90%;
+  font-size: 18px;
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+h2{
+  text-align: center;
+}
+.outputboxComparison{
+  height: 700px;
+  background: #222222;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  margin: 0px 2px;
+  margin-bottom: 5vw;
+}
+.boxSmall{
+  background: #fff;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid #222;
+  margin: 0px 2px;
+  height: 160px;
+  overflow: scroll;
+  margin-bottom:5vw ;
+}
+.col-two{
+  display: grid;
+  grid-template-columns: 48% 48%;
+  width: 95%;
+  grid-gap: 4%;
+  margin: auto;
+}
+.col-two-vert{
+
+}
